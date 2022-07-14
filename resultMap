@@ -1,0 +1,23 @@
+<!--
+		FileAttachDTO에 GalleryDTO를 넣은 resultMap 처리(조인에서 활용)
+	-->
+	<!-- 
+	<resultMap type="GalleryDTO" id="GalleryMap">
+		<result column="GALLERY_NO" property="galleryNo" />
+		<result column="WRITER" property="writer" />
+		<result column="TITLE" property="title" />
+		<result column="CONTENT" property="content" />
+		<result column="IP" property="ip" />
+		<result column="HIT" property="hit" />
+		<result column="CREATED" property="created" />
+		<result column="MODIFIED" property="modified" />
+	</resultMap>
+	<resultMap type="FileAttachDTO" id="FileAttachMap">
+		<result column="FILE_ATTACH_NO" property="fileAttachNo" />
+		<result column="PATH" property="path" />
+		<result column="ORIGIN" property="origin" />
+		<result column="SAVED" property="saved" />
+		<result column="DOWNLOAD_CNT" property="downloadCnt" />
+		<collection resultMap="GalleryMap" property="gallery" />
+	</resultMap>
+ 	-->
